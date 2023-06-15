@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #FED200;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* ------------------------------NAV------------------------*/
+nav {
+    background-color: #E7E7E7;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li,a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav ul li input{
+    border-radius: 5px;
+    height: 30px;
+}
+/* ------------------------------menu------------------------*/
+#bang{
+    background-color: #FED100;
+}
+#bang ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bang ul li{
+    padding: 12px 6px;
+    display: block;
+}
+#bang ul li,a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#bang ul li:hover{
+    background-color: white;
+}
+/* ------------------------------PRODUCT------------------------*/
+#product{
+    padding: 100px 0;
+}
+.product-top{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-content{
+    display: flex;
+}
+.product-content-left{
+    width: 50%;
+}
+.product-content-right{
+    width: 50%;
+}
+.product-content-left-big-img{
+    width: 100%;
+}
+.product-content-left-big-img img{
+    width: 90%;
+}
+.product-content-left-small-img{
+    width: 25%;
+    display: flex;
+    margin-left: 80px;
+}
+.product-content-left-small-img img{
+    width: 75%;
+    margin: 5px 10px;
+    border: solid 1px #E7E7E7;
+}
+.product-content-right1{
+    width: 100%;
+    height: 50px;
+}
+.product-content-right1 button{
+    border: solid 1px #E7E7E7;
+    padding: 10px;
+    margin: 15px;
+    background-color:#ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.product-content-right1 button:hover{
+    border-color: #2F80ED;
+    color: #2F80ED;
+}
+.product-content-right2{
+    width: 100%;
+    height: 50px;
+}
+.product-content-right2 p{
+    font-size: 25px;
+    color: #D0021C;
+    line-height: 50px;
+}
+.product-content-right4 .title{
+    background-color: #E7E7E7;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.product-content-right4 .title p{
+    line-height: 50px;
+}
+.product-content-right5{
+    text-align: center;
+    margin-top: 30px ;
+}
+.product-content-right5 input{
+    width: 100%;
+    height: 50px;
+    background-color: #FB6E2E;
+    color: #ffffff;
+    border: solid 1px #FB6E2E;
+    border-radius: 8px;
+}
+/* ------------------------------DIEN THOAI KHAC-----------------*/
+.headline{
+    max-width: 1200px;
+    margin:auto;
+    font-size: 20px;
+}
+#dienthoai .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.content_right_content_item{
+    text-align: center;
+    width: 24% ;
+    border: solid 1px #E0E0E0;
+    overflow: hidden;
+    margin: 1px;
+    box-shadow: 0px 0px 5px #E0E0E0;
+}
+.content_right_content_item img{
+    width: 80%;
+    transition: 0.3s ease-in-out;
+}
+.content_right_content_item :hover img{
+    transform: scale(1.1);
+}
+.phone-icon{
+    color: #FED200;
+}
+.content_right_content_item h1 :hover{
+    color: #288AD6;
+}
+.content_right_content_item p{
+    color: #CC2026;
+    margin: 5px 0;
+}
+/* ------------------------------FOOTER------------------------*/
+#footer{
+    background: #E7E7E7;
+    max-width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+#footer ul{
+    list-style-type: none;
+    margin: 10px;
+}
+.footer1 li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer2 li{
+    display: block;
+}

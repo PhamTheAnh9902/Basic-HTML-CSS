@@ -1,0 +1,147 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #FED200;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* ------------------------------NAV------------------------*/
+nav {
+    background-color: #E7E7E7;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li,a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav ul li input{
+    border-radius: 5px;
+    height: 30px;
+}
+
+/* ------------------------------menu------------------------*/
+#bang{
+    background-color: #FED100;
+}
+#bang ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bang ul li{
+    padding: 12px 6px;
+    display: block;
+}
+#bang ul li,a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#bang ul li:hover{
+    background-color: white;
+}
+/* ------------------------------CART------------------------*/
+.cart-top{
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-top a{
+    flex: 2;
+}
+.cart-bottom1, .cart-bottom2{
+    border: solid 1px #E7E7E7;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+.cart img{
+    width: 100%;
+}
+input{
+    padding: 10px;
+    border: solid 1px #E7E7E7;
+}
+.cart-bottom-products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-bottom-products-img img{
+    width: 60px;
+    height: 60px;
+}
+.cart-bottom-products-img, .cart-bottom-products-soluong,.tongtien,.cart-bottom-products-delete{
+    flex: 1;
+    margin-left: 20px;
+}
+.cart-bottom-products-price{
+    flex: 2;
+}
+.cart-bottom-products-price span{
+    color: #D0021C;
+}
+.cart-bottom-products-name{
+    flex: 3;
+    margin-left: 20px;
+}
+.cart-bottom-products-delete{
+    text-align: center;
+}
+.cart-bottom-products-delete .delete:hover{
+    color: #D0021C;
+}
+
+.cart-bottom2 h2{
+    margin: 5px 0;
+}
+.cart-bottom2 p{
+    font-size: 16px;
+}
+.cart-bottom2 input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.dathang{
+    background-color: #FB6E2E;
+    color: #ffffff;
+}
+
+
+/* ------------------------------FOOTER------------------------*/
+#footer{
+    background: #E7E7E7;
+    max-width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+#footer ul{
+    list-style-type: none;
+    margin: 10px;
+}
+.footer1 li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer2 li{
+    display: block;
+}
